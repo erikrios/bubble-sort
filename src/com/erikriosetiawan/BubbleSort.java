@@ -1,8 +1,13 @@
 package com.erikriosetiawan;
 
+/**
+ * Class to sorting some numbers using bubble sort algorithm
+ */
 public class BubbleSort {
 
-    // Method to sort the random values in array
+    /**
+     * Method to sort the random values in array
+     */
     public static void sort(int[] values, int arrayLength) {
         for (int i = 0; i < arrayLength - 1; i++) {
             for (int j = 0; j < arrayLength - 1; j++) {
