@@ -10,7 +10,7 @@ public class BubbleSort {
      */
     public static void sort(int[] values, int arrayLength) {
         for (int i = 0; i < arrayLength - 1; i++) {
-            for (int j = 0; j < arrayLength - 1; j++) {
+            for (int j = 0; j < arrayLength - i - 1; j++) {
                 if (values[j] > values[j + 1]) {
                     int temp = values[j];
                     values[j] = values[j + 1];
